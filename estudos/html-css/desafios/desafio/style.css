@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: Bebás Neue; 
+    font-size: 12px;
+}
+
+a {
+    text-decoration:none;
+    color: white; 
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: black;
+    
+    height: 40px;
+    padding-top: 20px;
+    
+    
+}
+
+.info-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.search-line {
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-left: 28px;
+}
+
+.logo img {
+    width: 140px;
+    height: 60px;
+}
+
+.search-input {
+    width: 100%;
+    position:relative;
+}
+
+.search-input input {
+    width: 100%;
+    height: 32px;
+    background: rgba(215, 211, 211, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    
+}
+.lupa {
+    
+    position:absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.icons-box {
+    display:flex;
+    width: 20%;
+    padding-left: 56px;
+}
+
+.nav {
+        display: flex;
+        justify-content: space-around;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.nav li {
+    margin-left:20px;
+}
+
+.banner-box {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+    padding: 16px 10%;
+
+    height: 500px;
+    
+    background-image: url("Banner principal.svg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    color: white;   
+}
+    
+
+.main-banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.super-desconto {
+    display: flex;
+    justify-content:center;
+}
+
+.barra {
+    border: 1px solid #FFFAFA;
+    transform: translate(0, 13px) rotate(27deg);
+}
+
+ .super {
+    font-family:'Roboto Condensed';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.desconto {
+    font-family: 'Roboto Condensed';
+    font-weight:700;
+    font-size: 50px;
+    transform: translate(0, 24px);
+}
+
+.itens {
+    display:flex;
+    justify-content:space-around;
+}
+
+.itens-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.short {
+    font-size:9px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: Bebás Neue; 
+    font-size: 12px;
+}
+
+a {
+    text-decoration:none;
+    color: white; 
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: black;
+    
+    height: 40px;
+    padding-top: 20px;
+    
+    
+}
+
+.info-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.search-line {
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-left: 28px;
+}
+
+.logo img {
+    width: 140px;
+    height: 60px;
+}
+
+.search-input {
+    width: 100%;
+    position:relative;
+}
+
+.search-input input {
+    width: 100%;
+    height: 32px;
+    background: rgba(215, 211, 211, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    
+}
+.lupa {
+    
+    position:absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.icons-box {
+    display:flex;
+    width: 20%;
+    padding-left: 56px;
+}
+
+.nav {
+        display: flex;
+        justify-content: space-around;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.nav li {
+    margin-left:20px;
+}
+
+.banner-box {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+    padding: 16px 10%;
+
+    height: 500px;
+    
+    background-image: url("Banner principal.svg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    color: white;   
+}
+    
+
+.main-banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.super-desconto {
+    display: flex;
+    justify-content:center;
+}
+
+.barra {
+    border: 1px solid #FFFAFA;
+    transform: translate(0, 13px) rotate(27deg);
+}
+
+ .super {
+    font-family:'Roboto Condensed';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.desconto {
+    font-family: 'Roboto Condensed';
+    font-weight:700;
+    font-size: 50px;
+    transform: translate(0, 24px);
+}
+
+.itens {
+    display:flex;
+    justify-content:space-around;
+}
+
+.itens-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.short {
+    font-size:9px;
+}
+
